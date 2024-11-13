@@ -1,0 +1,29 @@
+* , 
+*::after ,
+*::before{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: "Anton", sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    font-weight: 400;
+    margin: 20px 0;
+}
+
+button{
+    padding: 30px 80px;
+    background-color: blue;
+    color: white;
+}
+
+button:hover{
+    background-color: green;
+}
